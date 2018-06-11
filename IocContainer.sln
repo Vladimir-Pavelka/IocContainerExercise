@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocContainer", "IocContainer\IocContainer.csproj", "{80E0567A-E171-4904-AE9E-53519084A689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerTests", "ContainerTests\ContainerTests.csproj", "{96017D3A-270A-4CA1-8486-A935950C6189}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{489E3111-2EDF-458D-9354-D445C2CF45E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80E0567A-E171-4904-AE9E-53519084A689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E0567A-E171-4904-AE9E-53519084A689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E0567A-E171-4904-AE9E-53519084A689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E0567A-E171-4904-AE9E-53519084A689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96017D3A-270A-4CA1-8486-A935950C6189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96017D3A-270A-4CA1-8486-A935950C6189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96017D3A-270A-4CA1-8486-A935950C6189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96017D3A-270A-4CA1-8486-A935950C6189}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96017D3A-270A-4CA1-8486-A935950C6189} = {489E3111-2EDF-458D-9354-D445C2CF45E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AD7E00B-8C15-4431-A38A-3A01423F0136}
+	EndGlobalSection
+EndGlobal
